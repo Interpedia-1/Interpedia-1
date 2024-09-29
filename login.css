@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #1c09a8;
+    background-color: #3604bd;
 }
 .background{
     width: 430px;
@@ -24,7 +24,7 @@ body{
 }
 .shape:first-child{
     background: linear-gradient(
-        #84f71a,
+        #c7fa0e,
         #23a2f6
     );
     left: -80px;
@@ -33,7 +33,7 @@ body{
 .shape:last-child{
     background: linear-gradient(
         to right,
-        #ca2808,
+        #b30202,
         #c7780a
     );
     right: -30px;
@@ -42,14 +42,14 @@ body{
 form{
     height: 520px;
     width: 400px;
-    background-color: rgba(32, 21, 189, 0.068);
+    background-color: rgba(248, 7, 7, 0.411);
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
     border-radius: 10px;
     backdrop-filter: blur(10px);
-    border: 2px solid rgba(90, 5, 5, 0.1);
+    border: 2px solid rgba(170, 11, 11, 0.89);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
     padding: 50px 35px;
 }
@@ -121,4 +121,3 @@ button{
 .social i{
   margin-right: 4px;
 }
-
